@@ -1,4 +1,4 @@
-data class Holdings(
+data class Positions(
     val id: String,
     val assetSymbol: String,       // e.g., "AAPL", "BTC"
     val quantity: Double,          // e.g., 10.5

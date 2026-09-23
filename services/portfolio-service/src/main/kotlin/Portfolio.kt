@@ -1,3 +1,7 @@
 data class Portfolio(
-	id: string,
+	val id: String,
+	val portfolioName: String,
+	val createdAt: String,
+	val updatedAt: String,
+	val positions: MutableListOf<Positions>
 	)
