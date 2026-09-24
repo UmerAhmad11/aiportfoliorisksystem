@@ -1,0 +1,30 @@
+stages:
+  - build
+  - tests
+  - publish
+  - scan
+  - deploy
+
+build:
+  stage: build
+  script: echo "building"
+
+lint:
+  stage: tests
+  script: echo "linting"
+
+unit_tests:
+  stage: tests
+  script: echo "testing"
+
+publish:
+  stage: publish
+  script: echo "publishing"
+
+scan:
+  stage: scan
+  script: echo "scanning"
+
+deploy_dev:
+  stage: deploy
+  script: echo "deploying"
