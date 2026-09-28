@@ -1,0 +1,9 @@
+data class Transactions(
+	val id: String,
+	val portfolioId: String,
+	val type: String,
+	val symbol: String,
+	val currency: String,
+	val quantity: Double,
+	val price: Double,
+	val timeStamp: Long)
